@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+                width="628"
+                height="378"
+                viewBox="0 0 628 378"
+                fill="none"
+              >
+                <g filter="url(#filter0_d_0_5160)">
+                  <path
+                    d="M26.5 141.016C26.5 134.614 31.065 129.123 37.3589 127.953L577.786 27.5217C585.957 26.0033 593.5 32.274 593.5 40.5845V329.454C593.5 336.792 587.552 342.741 580.214 342.741H39.7864C32.4485 342.741 26.5 336.792 26.5 329.454V141.016Z"
+                    stroke="#FE5355"
+                    shape-rendering="crispEdges"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_0_5160"
+                    x="0"
+                    y="0.793945"
+                    width="628"
+                    height="376.447"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dx="4" dy="4" />
+                    <feGaussianBlur stdDeviation="15" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_0_5160"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_0_5160"
+                      result="shape"
+                    />
+                  </filter>
+                </defs>
+              </svg>
