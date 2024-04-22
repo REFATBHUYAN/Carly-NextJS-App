@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="bg-[#FFF8F8] pb-36">
       <Container>
-        <div className="flex items-center justify-center ">
+        <div className="flex flex-col md:flex-row items-center justify-center ">
           <div>
             <h1 className="mb-7">
               <span className="text-black text-7xl font-extrabold">
@@ -27,8 +27,8 @@ const Banner = () => {
                 approach in finding your dream car.
               </p>
             </div>
-            <div className="flex gap-10 items-center mt-12">
-              <div className="w-48 h-14 px-10 py-4 bg-red-600 rounded-md justify-start items-start gap-2.5 inline-flex">
+            <div className="md:flex gap-10 items-center mt-12 hidden">
+              <div className="w-48 h-14 px-6 py-4 bg-red-600 rounded-md justify-start items-start gap-2.5 inline-flex">
                 <button className="text-white text-base font-bold">
                   Booking Now
                 </button>
@@ -47,6 +47,18 @@ const Banner = () => {
               width={900}
               height={500}
             />
+            <div className="flex gap-10 items-center mt-12 md:hidden">
+              <div className="w-48 h-14 px-6 py-4 bg-red-600 rounded-md justify-start items-start gap-2.5 inline-flex">
+                <button className="text-white text-base font-bold">
+                  Booking Now
+                </button>
+              </div>
+              <div>
+                <button className="text-red-600 text-base font-bold underline underline-offset-2 decoration-2">
+                  See All Cars
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </Container>

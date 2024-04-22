@@ -5,7 +5,7 @@ const Date = () => {
   return (
     <div>
       <Container>
-        <div className="flex items-center justify-between rounded-lg shadow py-10 px-11 -mt-24 bg-white">
+        <div className="md:flex items-center justify-between rounded-lg shadow py-10 px-11 -mt-24 bg-white ">
           <div>
             <h1 className="text-neutral-500 text-base font-normal text-center mb-6">
               Pick Up Date
@@ -54,7 +54,7 @@ const Date = () => {
               <option>React</option>
             </select>
           </div>
-          <button className="w-48 h-14 px-10 py-4 rounded-md border border-red-600 justify-start items-start gap-2.5 inline-flex hover:bg-red-600 hover:text-white group">
+          <button className="w-48 h-14 px-10 py-4 rounded-md border border-red-600 justify-start items-start gap-2.5 inline-flex hover:bg-red-600 hover:text-white group mt-10 md:mt-0">
             <span className="text-red-600 text-base font-bold group-hover:text-white">
               Search a Car
             </span>

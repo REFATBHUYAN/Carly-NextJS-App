@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className="relative py-32 overflow-hidden">
       <Container>
-        <div className="flex items-center justify-center gap-10">
+        <div className="md:flex items-center justify-center gap-10">
           <div className="w-full">
             <Image
               src="/Rectangle 7.png"

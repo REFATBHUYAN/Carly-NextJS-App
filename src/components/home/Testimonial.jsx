@@ -25,15 +25,16 @@ const Testimonial = () => {
           <p className=" text-base font-normal leading-7 text-center">
             Allow us to guide you through the innovative stress free
           </p>
-          <div className="flex gap-16 my-36">
-            <div className="relative w-[560px] h-[320px]">
+          <div className="md:flex  gap-6 md:gap-10 my-36">
+            <div className="relative w-full h-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="628"
-                height="378"
+                // width="628"
+                // height="378"
+                className="h-full w-full absolute"
                 viewBox="0 0 628 378"
                 fill="none"
-                className="absolute"
+                // className="absolute"
               >
                 <g filter="url(#filter0_d_0_5160)">
                   <path
@@ -81,7 +82,7 @@ const Testimonial = () => {
                 </defs>
               </svg>
               <div className="flex flex-col items-center mx-auto">
-                <div className="ml-52 z-10 relative">
+                <div className="ml-28 md:ml-52 z-10 relative">
                   <Image
                     src="/Ellipse 25.svg"
                     className="w-36 h-36 rounded-full  bg-red-100 "
@@ -143,14 +144,14 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <div className="relative w-[560px] h-[320px]">
+            <div className="relative w-full h-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="628"
-                height="378"
+                // width="628"
+                // height="378"
                 viewBox="0 0 628 378"
                 fill="none"
-                className="absolute"
+                className="absolute w-full h-full"
               >
                 <g filter="url(#filter0_d_0_5160)">
                   <path
@@ -198,7 +199,7 @@ const Testimonial = () => {
                 </defs>
               </svg>
               <div className="flex flex-col items-center mx-auto">
-                <div className="ml-52 z-10 relative">
+                <div className="ml-28 md:ml-52 z-10 relative">
                   <Image
                     src="/Ellipse 26.svg"
                     className="w-36 h-36 rounded-full  bg-red-100 "
