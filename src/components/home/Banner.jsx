@@ -29,7 +29,7 @@ const Banner = () => {
             </div>
             <div className="md:flex gap-10 items-center mt-12 hidden">
               <div className="w-48 h-14 px-6 py-4 bg-red-600 rounded-md justify-start items-start gap-2.5 inline-flex">
-                <button className="text-white text-base font-bold">
+                <button className="text-white text-base font-bold mx-auto">
                   Booking Now
                 </button>
               </div>
